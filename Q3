@@ -1,0 +1,12 @@
+my_dict = {
+    "name": "Nihal",
+    "age": 20,
+    "place": "Kerala"
+}
+
+key = input("Enter key to check: ")
+
+if key in my_dict:
+    print("Key exists in dictionary")
+else:
+    print("Key does not exist in dictionary")
