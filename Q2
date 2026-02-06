@@ -1,0 +1,8 @@
+s = input("Enter a string: ")
+n = int(input("Enter index to remove: "))
+
+if n < 0 or n >= len(s):
+    print("Invalid index")
+else:
+    result = s[:n] + s[n+1:]
+    print("New string:", result)
